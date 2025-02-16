@@ -9,6 +9,7 @@ function setScreenValue(value) {
 }
 
 // Calculates and displays the result
+///trim() used to remove whitespace (spaces, tabs, and newlines) from both the beginning and the end of a string.
 function calculateResult() {
     const resultElement = document.getElementById("result");
     const expression = resultElement.value.trim();
